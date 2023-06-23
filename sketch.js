@@ -1,4 +1,4 @@
-const n = 7;
+const n = 20;
 let grid;
 let tileSize;
 
@@ -11,7 +11,7 @@ let seedColor3;
 const grayRatio = 0.7;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowWidth);
   tileSize = width / n;
   initTiles();
   findGroups();
